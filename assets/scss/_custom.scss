@@ -1,0 +1,37 @@
+* {
+  font-family: "Nunito Sans";
+}
+.navbar{
+  .v-input__slot{
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05) !important;
+    border: 0.4px solid #ddd;
+
+  }
+}
+.v-btn{
+  text-transform: capitalize !important;
+}
+.notification-badge{
+  height: 15px !important;
+  width: 15px !important;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 10px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: -12px;
+  margin-top: 10px;
+  z-index: 1;
+
+}
+
+.v-list-item--active{
+  font-weight: bold;
+  border: 1px solid #ddd !important;
+  border-radius: 8px !important;
+  &::before{
+    background: transparent !important;
+  }
+}
