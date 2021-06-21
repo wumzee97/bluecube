@@ -1,6 +1,6 @@
 <template>
   <v-container px-7>
-    <div class="page-nav white hidden-sm-and-down">
+    <div class="page-nav justify-space-between white hidden-sm-and-down">
       <div class="px-6">
         World <v-icon small class="ml-2">fas fa-angle-down</v-icon>
       </div>
